@@ -132,7 +132,7 @@ function createSelect(attribute) {
 function createButton() {
   const formButton = document.createElement('button');
 
-  button.textContent = 'Save to table';
+  formButton.textContent = 'Save to table';
 
   form.append(formButton);
 }
